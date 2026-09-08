@@ -1,7 +1,7 @@
 // CDN URLs for all Turd Burglars assets
 export const ASSETS = {
-  logo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663169709233/76xKr3Udm2m24dqV2piHLu/logo_horizontal_c932ce15.png",
-  noPoop: "https://d2xsxph8kpxj0f.cloudfront.net/310519663169709233/76xKr3Udm2m24dqV2piHLu/no_poop_e970388b.png",
+  logo: "/images/logo_horizontal_c932ce15.png",
+  noPoop: "/images/no_poop_e970388b.png",
   dogs: [
     // Golden Retriever running in grass
     "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",

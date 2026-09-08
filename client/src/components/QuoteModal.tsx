@@ -77,8 +77,9 @@ export function QuoteModal() {
   const planLabel = (val: string) => {
     const map: Record<string, string> = {
       "one-time": "One-Time Clean",
-      "monthly": "Monthly Service",
+      "weekly": "Weekly Service",
       "biweekly": "Biweekly Service",
+      "monthly": "Monthly Service",
     };
     return map[val] || val;
   };
@@ -280,8 +281,9 @@ export function QuoteModal() {
                 {field("dogs", "# of Dogs & Breed(s)", "text", "e.g. 2 Labs")}
                 {selectField("plan", "Service Plan", [
                   { value: "one-time", label: "One-Time Clean" },
-                  { value: "monthly", label: "Monthly Service" },
+                  { value: "weekly", label: "Weekly Service" },
                   { value: "biweekly", label: "Biweekly Service" },
+                  { value: "monthly", label: "Monthly Service" },
                 ])}
                 {selectField("yard", "Yard Size", [
                   { value: "small", label: "Small (< 1/4 acre)" },

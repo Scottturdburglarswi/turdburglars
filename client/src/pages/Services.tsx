@@ -10,8 +10,8 @@ function SectionFadeUp({ children }: { children: ReactNode }) {
   return <div ref={ref} className="fade-up">{children}</div>;
 }
 
-const SERVICE_WORKER_PHOTO = "https://d2xsxph8kpxj0f.cloudfront.net/310419663028378508/mauC7Xq7GwXUvn389Jy89d/service-worker_a39c88dc.jpg";
-const SERVICE_DOG_SIGN_PHOTO = "https://d2xsxph8kpxj0f.cloudfront.net/310419663028378508/mauC7Xq7GwXUvn389Jy89d/service-dog-sign_2306d480.png";
+const SERVICE_WORKER_PHOTO = "/images/service-worker_a39c88dc.jpg";
+const SERVICE_DOG_SIGN_PHOTO = "/images/service-dog-sign_2306d480.jpg";
 
 const plans = [
   {
@@ -28,6 +28,32 @@ const plans = [
     ],
   },
   {
+    icon: "🗓️",
+    title: "Weekly Service",
+    badge: "Most Thorough",
+    badgeColor: "bg-[oklch(0.52_0.15_145)] text-white",
+    desc: "We visit every week so your yard never has a chance to pile up. The best choice for multi-dog households and heavy-traffic yards.",
+    features: [
+      "Weekly scheduled visits",
+      "Best for 2+ dogs",
+      "Priority scheduling",
+      "48-hr satisfaction guarantee",
+    ],
+  },
+  {
+    icon: "🏆",
+    title: "Biweekly Service",
+    badge: "Best Value",
+    badgeColor: "bg-[oklch(0.52_0.15_145)] text-white",
+    desc: "Twice a month means your yard stays consistently clean all season long. A popular choice for multi-dog households!",
+    features: [
+      "Twice-monthly visits",
+      "Great for 1–2 dogs",
+      "Priority scheduling",
+      "48-hr satisfaction guarantee",
+    ],
+  },
+  {
     icon: "📅",
     title: "Monthly Service",
     badge: null,
@@ -37,19 +63,6 @@ const plans = [
       "Monthly scheduled visits",
       "Consistent clean yard",
       "Easy to cancel anytime",
-      "48-hr satisfaction guarantee",
-    ],
-  },
-  {
-    icon: "🏆",
-    title: "Biweekly Service",
-    badge: "Best Value",
-    badgeColor: "bg-[oklch(0.52_0.15_145)] text-white",
-    desc: "Twice a month means your yard stays consistently clean all season long. The most popular choice for multi-dog households!",
-    features: [
-      "Twice-monthly visits",
-      "Best for 2+ dogs",
-      "Priority scheduling",
       "48-hr satisfaction guarantee",
     ],
   },
@@ -149,7 +162,7 @@ export default function Services() {
           <p className="text-center text-[oklch(0.4_0.02_240)] font-semibold mb-10">
             Pricing is based on the number of dogs and frequency of service. Click below and let us handle the dirty work! 💩
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 stagger-children">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 stagger-children">
             {plans.map((p) => (
               <div
                 key={p.title}

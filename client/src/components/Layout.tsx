@@ -341,7 +341,7 @@ export function GrassScene() {
   return (
     <div className="w-full" style={{ marginBottom: '-4px', lineHeight: 0 }}>
       <img
-        src="https://d2xsxph8kpxj0f.cloudfront.net/310519663169709233/76xKr3Udm2m24dqV2piHLu/grass-hero_0bdcd2f9.jpg"
+        src="/images/grass-hero_0bdcd2f9.jpg"
         alt="Turd Burglar and dog on grass"
         className="w-full block"
         style={{ display: 'block' }}
@@ -363,7 +363,7 @@ export function PageHero({ title, subtitle }: { title: React.ReactNode; subtitle
       <div
         className="absolute inset-0 hero-bg-desktop"
         style={{
-          backgroundImage: `url('https://d2xsxph8kpxj0f.cloudfront.net/310519663169709233/76xKr3Udm2m24dqV2piHLu/hero-gemini_e8f58741.png')`,
+          backgroundImage: `url('/images/hero-gemini_e8f58741.png')`,
           backgroundRepeat: 'no-repeat',
         }}
       />

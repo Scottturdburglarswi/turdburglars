@@ -8,7 +8,7 @@ interface SEOProps {
 }
 
 const BASE_URL = "https://turdburglarswi.com";
-const DEFAULT_IMAGE = "https://d2xsxph8kpxj0f.cloudfront.net/310419663028378508/mauC7Xq7GwXUvn389Jy89d/van-autumn_67a2fc61.png";
+const DEFAULT_IMAGE = "/images/van-autumn_67a2fc61.jpg";
 
 export function useSEO({ title, description, canonical, ogImage }: SEOProps) {
   useEffect(() => {

@@ -186,8 +186,9 @@ export default function Contact() {
                     {field("dogs", "Number of Dogs & Breed(s)", "text", "e.g. 2 Labs")}
                     {selectField("plan", "Service Plan Desired", [
                       { value: "one-time", label: "One-Time Clean" },
-                      { value: "monthly", label: "Monthly Service" },
+                      { value: "weekly", label: "Weekly Service" },
                       { value: "biweekly", label: "Biweekly Service" },
+                      { value: "monthly", label: "Monthly Service" },
                     ])}
                     {selectField("yard", "Yard Size", [
                       { value: "small", label: "Small (under 1/4 acre)" },

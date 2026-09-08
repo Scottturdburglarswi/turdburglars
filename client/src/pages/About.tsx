@@ -20,8 +20,8 @@ function FadeRight({ children, className = "" }: { children: ReactNode; classNam
   return <div ref={ref} className={`fade-right ${className}`}>{children}</div>;
 }
 
-const OWNER_PHOTO = "https://d2xsxph8kpxj0f.cloudfront.net/310419663028378508/mauC7Xq7GwXUvn389Jy89d/owner-photo_eebaf306.png";
-const VAN_PHOTO = "https://d2xsxph8kpxj0f.cloudfront.net/310419663028378508/mauC7Xq7GwXUvn389Jy89d/van-photo_33050f48.png";
+const OWNER_PHOTO = "/images/owner-photo_eebaf306.jpg";
+const VAN_PHOTO = "/images/van-photo_33050f48.jpg";
 
 const values = [
   { icon: "💪", title: "Hard Work", desc: "We show up on time, work thoroughly, and don't leave until the job is done right." },

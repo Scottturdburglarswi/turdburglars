@@ -150,7 +150,7 @@ export default function Home() {
         <div
           className="absolute inset-0 hero-bg-desktop"
           style={{
-            backgroundImage: `url('https://d2xsxph8kpxj0f.cloudfront.net/310519663169709233/76xKr3Udm2m24dqV2piHLu/hero-gemini_e8f58741.png')`,
+            backgroundImage: `url('/images/hero-gemini_e8f58741.png')`,
             backgroundRepeat: 'no-repeat',
           }}
         />
@@ -161,7 +161,7 @@ export default function Home() {
         >
           <div className="flex flex-col items-center justify-center h-full gap-1 pointer-events-auto">
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028378508/mauC7Xq7GwXUvn389Jy89d/turdburglarssloganhorizontal_d6ca3bbc.avif"
+              src="/images/turdburglarssloganhorizontal_d6ca3bbc.avif"
               alt="We Are The Poo-Fessional Choice!"
               className="drop-shadow-sm w-auto"
               style={{ height: 'clamp(2.2rem, 6.5vw, 5.2rem)', maxWidth: '90vw', objectFit: 'contain' }}
@@ -268,7 +268,7 @@ export default function Home() {
             <div className="w-full lg:w-[45%] order-1 lg:order-2">
               <div className="rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
                 <img
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028378508/mauC7Xq7GwXUvn389Jy89d/van-autumn_67a2fc61.png"
+                  src="/images/van-autumn_67a2fc61.jpg"
                   alt="Turd Burglars service van in autumn"
                   className="w-full h-full object-cover"
                   loading="lazy"
@@ -281,7 +281,7 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 stagger-children">
             <div className="rounded-2xl overflow-hidden aspect-square shadow-lg">
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028378508/mauC7Xq7GwXUvn389Jy89d/owner-photo_eebaf306.png"
+                src="/images/owner-photo_eebaf306.jpg"
                 alt="Scott - owner of Turd Burglars"
                 className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500"
                 loading="lazy"
@@ -289,7 +289,7 @@ export default function Home() {
             </div>
             <div className="rounded-2xl overflow-hidden aspect-square shadow-lg">
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028378508/mauC7Xq7GwXUvn389Jy89d/van-photo_33050f48.png"
+                src="/images/van-photo_33050f48.jpg"
                 alt="Turd Burglars team with service van"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 loading="lazy"
@@ -297,7 +297,7 @@ export default function Home() {
             </div>
             <div className="rounded-2xl overflow-hidden aspect-square shadow-lg">
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028378508/mauC7Xq7GwXUvn389Jy89d/service-worker_a39c88dc.jpg"
+                src="/images/service-worker_a39c88dc.jpg"
                 alt="Turd Burglars technician at work"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 loading="lazy"
@@ -305,7 +305,7 @@ export default function Home() {
             </div>
             <div className="rounded-2xl overflow-hidden aspect-square shadow-lg">
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028378508/mauC7Xq7GwXUvn389Jy89d/team-girl-puppy_a0081716.jpg"
+                src="/images/team-girl-puppy_a0081716.jpg"
                 alt="Turd Burglars team member with puppy"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 loading="lazy"
